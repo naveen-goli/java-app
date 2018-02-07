@@ -1,4 +1,4 @@
-use simplehr;
+use simplehr; 
 -- Create table
 create table users
 (
