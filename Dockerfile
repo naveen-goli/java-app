@@ -1,4 +1,4 @@
 FROM tomcat
-ADD ./SpringMVCSecurityXML/target/SpringMVCSecurityXML.war /var/lib/tomcat/webapps/
-RUN ls /var/lib/tomcat/webapps/
+ADD ./SpringMVCSecurityXML/target/SpringMVCSecurityXML.war /usr/local/tomcat/webapps/
+RUN ls /usr/local/tomcat/webapps/
 
